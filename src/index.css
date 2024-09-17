@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+/* .Navbar Styling */
+
+.navbar-nav li {
+  margin-left: 26px;
+}
+
+.nav-link.active {
+  color: #007bff !important;
+}
+
+.nav-link.active:hover {
+  color: #0056b3; 
+}
+
+/* AboutPricing Styling */
+.pricing-item{
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Footer Styling */
+footer{
+  background-color: #f0f0f0;
+}
+
+
+.social-media-list{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-media-list li{
+  margin-right: 20px;
+}
+
+.footer-container a{
+  margin-top: 32px;
+  font-size: 0.8rem;
+}
+
+.footer-container a:hover{
+  color: #007bff;
+}
+
+.footer-description{
+  font-size: 0.8rem;
+  margin-top: 24px;
+}
+
+
+/* Pricing Component Styling */
+
+.pricing-features img{
+  width: 65%;
+}
+
+/* Team Component Styling */
+
+.team-container img{
+  border-radius: 100%;
+  height: 290px;
+}
+
+/* Signup Component Styling */
+
+.signup-container{
+  height: 85vh;
+}
+
+/* Product Component Styling */
+.patners-container img{
+  height: 38px;
+}
+
+.patners-container .patner-card{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
