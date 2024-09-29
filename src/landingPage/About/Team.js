@@ -16,17 +16,17 @@ function Team() {
         </div>
         <div className="col-12 col-md-6">
           <p className="about-desc">
-            As a passionate software developer with a strong foundation in both
-            frontend and backend technologies, I thrive on creating seamless and
-            intuitive applications. My journey in tech has been driven by a
-            curiosity to explore diverse domains, including web development,
-            data science.
+            Hi, I’m Keerthan Reddy Kolli, a full-stack developer passionate
+            about building efficient and user-friendly applications. I
+            specialize in React.js, Node.js, and MongoDB, with a strong focus on
+            attention to detail and adaptability.
             <br />
             <br />
-            With hands-on experience in building full-stack applications, I have
-            honed my skills in creating responsive, user-friendly interfaces and
-            robust backend systems. My work reflects a commitment to quality,
-            performance, and a keen eye for detail.
+            I’m eager to join an organization where I can grow alongside a
+            supportive team and contribute meaningfully to innovative projects.
+            I thrive in environments that value collaboration and quality, and
+            I’m always ready to take on new challenges to deliver impactful
+            products.
           </p>
           <h5>
             Connect on{" "}

@@ -85,11 +85,6 @@ footer{
   height: 290px;
 }
 
-/* Signup Component Styling */
-
-.signup-container{
-  height: 85vh;
-}
 
 /* Product Component Styling */
 .patners-container img{
@@ -101,4 +96,54 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+/* NavSpecial Item */
+/* Keyframes for blinking effect */
+@keyframes blinking-text {
+  0% {
+    color: #f09433; /* Start with the first Instagram color */
+    border-color: #f09433;
+  }
+  25% {
+    color: #fcb045;
+    border-color: #fcb045;
+  }
+  50% {
+    color: #fd1d1d;
+    border-color: #fd1d1d;
+  }
+  75% {
+    color: #833ab4;
+    border-color: #833ab4;
+  }
+  100% {
+    color: #f09433; /* Loop back to the first color */
+    border-color: #f09433;
+  }
+}
+
+.nav-item-special {
+  position: relative;
+}
+
+.nav-link-special {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #f09433; /* Initial color */
+  border: 1px solid #f09433; /* Initial border color */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  background-color: transparent; /* Transparent background */
+  animation: blinking-text 2s infinite; /* Apply blinking animation */
+}
+
+.nav-link-special:hover {
+  color: #ffffff; /* Change text color on hover */
+  border-color: #ffffff; /* Change border color on hover */
+  background-color: transparent; /* Keep background transparent */
 }

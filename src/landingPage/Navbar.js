@@ -27,13 +27,8 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink
-                className="nav-link"
-                aria-current="page"
-                to="/sign-up"
-                activeClassName="active"
-              >
-                Signup
+              <NavLink activeClassName="active" className="nav-link" to="/">
+                Home
               </NavLink>
             </li>
             <li className="nav-item">
@@ -61,6 +56,15 @@ function Navbar() {
                 to="/pricing"
               >
                 Pricing
+              </NavLink>
+            </li>
+            <li className="nav-item nav-item-special">
+              <NavLink
+                className="nav-link nav-link-special"
+                aria-current="page"
+                to="http://localhost:3001/"
+              >
+                Dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </NavLink>
             </li>
           </ul>
