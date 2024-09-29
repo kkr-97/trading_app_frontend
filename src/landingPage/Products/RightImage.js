@@ -12,7 +12,7 @@ function RightImage(props) {
       </div>
       <Link to={link} className="w-md-50 order-0 order-md-2">
         {" "}
-        <img src={imgLink} alt={title} className="" />
+        <img src={imgLink} alt={title} className="h-auto" />
       </Link>
     </li>
   );

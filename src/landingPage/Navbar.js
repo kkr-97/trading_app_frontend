@@ -62,7 +62,7 @@ function Navbar() {
               <NavLink
                 className="nav-link nav-link-special"
                 aria-current="page"
-                to="http://localhost:3001/"
+                to="https://trading-dashboard-lctt.onrender.com"
               >
                 Dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </NavLink>

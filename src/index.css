@@ -35,10 +35,23 @@ a{
   color: #0056b3; 
 }
 
+.educate-container img{
+  max-width: 340px;
+  align-self: center;
+  margin: auto;
+}
+
 /* AboutPricing Styling */
 .pricing-item{
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  margin-right: 14px;
+  text-align: center;
+}
+
+.pricing-item img{
+  width: 100px;
 }
 
 /* Footer Styling */

@@ -15,7 +15,7 @@ function AboutPricing() {
           </a>
         </div>
         <div className="pricing-list-container d-flex flex-column flex-md-row align-items-center align-items-md--start col-12 col-md-6">
-          <div className="pricing-item d-flex">
+          <div className="pricing-item d-flex flex-column ">
             <img src="media/images/pricingEquity.svg" alt="equity pricing" />
             <p>
               Free account
@@ -23,7 +23,7 @@ function AboutPricing() {
               opening
             </p>
           </div>
-          <div className="pricing-item">
+          <div className="pricing-item d-flex flex-column ">
             <img src="media/images/pricingEquity.svg" alt="equity pricing" />
             <p>
               Free equity delivery
@@ -31,7 +31,7 @@ function AboutPricing() {
               and direct mutual funds
             </p>
           </div>
-          <div className="pricing-item">
+          <div className="pricing-item d-flex flex-column ">
             <img src="media/images/intradayTrades.svg" alt="intraday pricing" />
             <p>
               Intraday and
